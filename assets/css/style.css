@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+
+}
+
+/* Container */
+
+.container{
+    background:#0B1126;
+    height: 1700px;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header{
+   
+    display:flex;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+.header__logo{
+    padding-top: 32px;
+}
+
+
+
+
+/* Nav */
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    padding-top: 40px;
+}
+
+/* Button */
+
+.btn{
+    background: none;
+    font-size: 18px;
+    border-radius: 100%;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 50px;
+    margin-top: 28px;
+    color: white;
+    border-color: white;
+}
+
+/* Text */
+
+.text {
+display:inline-block;
+margin-left: 90px;
+margin-top: 200px;
+}
+
+.text__gradient{
+    
+    font-size: 72px;
+    text-transform: none;
+    background: linear-gradient( hsl(313, 58%, 47%) 33%, #7235b9 66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+    margin: 20px auto;
+
+}
+
+.text__card{
+    text-transform: none;
+    font-size: 72px;
+    color: rgb(255, 255, 255);
+}
+
+.text__new{
+    margin-left: 90px;
+    color: white;
+}
+
+.text__blue{
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+
+/* Card */
+
+.card__first{
+    display:inline-block;
+    background: linear-gradient(to top,#CA557B 33%, #9E395A 66%);
+    height: 260px;
+    inline-size: 420px;
+    margin-left: 650px;
+    margin-top: -300px;
+    transform: rotate(90);
+    color: white;
+    border-radius: 3%;
+    
+}
+
+.card__text{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 25px;
+    color: white;
+    line-height: 40px;
+}
+
+.card__logo{
+    margin-left:212px;
+    color: white;
+    margin-top: -105px;
+
+}
+
+.card__first__back{
+    margin-left: 0px;
+    margin-top: 10px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.123);
+    height: 72px;
+    inline-size: 420px;
+    border-radius: 6%;
+}
+
+.card__first__logo{
+    margin-left: 40px;
+    margin-top: -50px;
+
+}
+
+.card__first__contacts{
+    margin-left: 270px;
+    margin-top: -40px;
+    font-size: 10px;
+    width: 100px;
+    height: 20px;
+    color: white;
+    line-height: 20px;
+}
+
+.card__first__contacts a{
+    color: white;
+}
+
+.card__second{
+    display:block;
+    background: linear-gradient(to top,#5094F1 33%, #3873C2 66%);
+    height: 260px;
+    inline-size: 420px;
+    margin-left: 650px;
+    margin-top: -1000px;
+    border-radius: 3%;
+    
+}
+
+.card__third{
+    display:block;
+    background: linear-gradient(to top,#253261 33%, #0F1A3F 66%);
+    height: 260px;
+    inline-size: 420px;
+    margin-left: 650px;
+    margin-top: 10px;
+    border-radius: 3%;
+}
+    
+.card__fourth{
+    display:block;
+    background: linear-gradient(to top,#D7AD5A 33%, #CFA144 66%);
+    height: 260px;
+    inline-size: 420px;
+    margin-left: 650px;
+    margin-top: 10px;
+    border-radius: 3%;
+}
